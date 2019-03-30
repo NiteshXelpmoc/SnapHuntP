@@ -12,5 +12,6 @@ describe('Snaphunt login Functionality',() => {
    await Login.openwebpage();
    await Login.loginFunction();
    await Login.logout();
+   
  });
  });
