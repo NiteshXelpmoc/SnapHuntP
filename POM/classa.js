@@ -55,6 +55,6 @@ async logout() {
   await this.page.click(this.element.Clicklogout);
   return this.page;
 }
- 
+ //
  }
  module.exports = new Login();
